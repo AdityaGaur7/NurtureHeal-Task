@@ -7,12 +7,12 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  ResponsiveContainer,
+  ResponsiveContainer,  
   PieChart,
   Pie,
   Cell,
 } from "recharts";
-const API_URL = import.meta.env.VITE_API_URL;
+import { API_URL } from "../api";
 import axios from "axios";
 
 const Dashboard = () => {
