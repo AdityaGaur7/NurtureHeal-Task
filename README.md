@@ -66,10 +66,10 @@ The backend will run on `http://localhost:5000`
 
 ### Frontend Setup
 
-1. Navigate to the root directory:
+1. Navigate to the frontend directory:
 
 ```bash
-cd ..
+cd frontend
 ```
 
 2. Install dependencies:
