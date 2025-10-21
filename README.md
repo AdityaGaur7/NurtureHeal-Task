@@ -2,6 +2,10 @@
 
 A complete MERN stack web application for health analysis with user authentication, health data tracking, and interactive dashboards.
 
+
+https://github.com/user-attachments/assets/6772f758-0f86-4e02-8124-90d74aa10dfa
+
+
 ## Features
 
 - **User Authentication**: Secure login/register with JWT tokens
