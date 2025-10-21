@@ -5,7 +5,7 @@ export const analyzeHealthData = async (userId, healthMetrics) => {
     try {
         const { sleepQuality, stressLevel, appetite, activityType } = healthMetrics;
 
-        
+
         const { result, recommendation } = analyzeHealthLogic(
             sleepQuality,
             stressLevel,
@@ -13,7 +13,7 @@ export const analyzeHealthData = async (userId, healthMetrics) => {
             activityType
         );
 
-    
+
         const healthData = new HealthData({
             user: userId,
             sleepQuality,

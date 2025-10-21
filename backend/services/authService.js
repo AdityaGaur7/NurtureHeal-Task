@@ -6,7 +6,7 @@ const JWT_SECRET = process.env.JWT_SECRET;
 
 export const registerUser = async (name, email, password) => {
     try {
-        
+
         const existingUser = await User.findOne({ email });
         if (existingUser) {
             return {
@@ -15,7 +15,7 @@ export const registerUser = async (name, email, password) => {
             };
         }
 
-    
+
         const user = new User({ name, email, password });
         await user.save();
 

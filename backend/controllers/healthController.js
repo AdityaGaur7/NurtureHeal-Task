@@ -4,7 +4,7 @@ export const analyzeHealth = async (req, res) => {
     try {
         const { sleepQuality, stressLevel, appetite, activityType } = req.body;
 
-       
+
         if (!sleepQuality || !stressLevel || !appetite || !activityType) {
             return res.status(400).json({ message: 'All health metrics are required' });
         }
