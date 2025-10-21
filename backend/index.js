@@ -27,8 +27,8 @@ app.use((err, req, res, next) => {
     res.status(500).json({ message: 'Something went wrong!' });
 });
 
-app.use('*', (req, res) => {
-    res.status(404).json({ message: 'Route not found' });
+app.use('/', (req, res) => {
+    res.status(404).json({ message: 'Hello World' });
 });
 
 app.listen(PORT, () => {
